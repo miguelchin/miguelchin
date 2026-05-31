@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #001c54, #003791, #0070d1);
+    color: white;
+    min-height: 100vh;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    text-shadow: 0 0 15px #00a2ff;
+}
+
+header p {
+    color: #d9eaff;
+    margin-top: 10px;
+}
+
+/* NAV */
+nav {
+    background: #002f87;
+    padding: 15px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #00bfff;
+    text-shadow: 0 0 10px #00bfff;
+}
+
+/* MAIN */
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    border-left: 5px solid #00bfff;
+    padding-left: 10px;
+}
+
+/* ARTICULOS */
+article {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    backdrop-filter: blur(8px);
+    transition: 0.3s;
+}
+
+article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0, 191, 255, 0.6);
+}
+
+article h3 {
+    color: #00c8ff;
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #00163d;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(0, 191, 255, 0.5);
+}
+
+thead {
+    background: #002f87;
+}
+
+th {
+    padding: 15px;
+    color: #ffffff;
+    border-bottom: 2px solid #00bfff;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+tbody tr:hover {
+    background: rgba(0, 191, 255, 0.2);
+    transition: 0.3s;
+}
+
+tfoot {
+    background: #00163d;
+    font-weight: bold;
+}
+
+tfoot td {
+    padding: 15px;
+    color: #00d9ff;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    
+}
